@@ -1,13 +1,12 @@
-import { BrowserRouter } from "react-router";
 import "./App.css";
 
 function App() {
   return (
-    <BrowserRouter>
-      <div style={{background: 'white'}}>
-        <h1>ПРИВЕТ ВИТЯ</h1>
-      </div>
-    </BrowserRouter>
+    // <BrowserRouter>
+    <div style={{ backgroundColor: "white" }}>
+      <h1 style={{ color: "black" }}>ПРИВЕТ ВИТЯ</h1>
+    </div>
+    // </BrowserRouter>
   );
 }
 
