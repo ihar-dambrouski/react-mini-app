@@ -5,5 +5,5 @@ import mkcert from 'vite-plugin-mkcert'
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react(), mkcert()],
-  base: "/react-mini-app/"
+  // base: "/react-mini-app/"
 })

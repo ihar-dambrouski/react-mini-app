@@ -1,12 +1,14 @@
 import "./App.css";
+import "./shared/lib/styles/common.scss";
+import { ThemeProvider } from "styled-components";
+import { theme } from "./shared/lib/constants/theme";
+import { Router } from "./router";
 
 function App() {
   return (
-    // <BrowserRouter>
-    <div style={{ backgroundColor: "white" }}>
-      <h1 style={{ color: "black" }}>ПРИВЕТ ВИТЯ</h1>
-    </div>
-    // </BrowserRouter>
+    <ThemeProvider theme={theme}>
+      <Router />
+    </ThemeProvider>
   );
 }
 
