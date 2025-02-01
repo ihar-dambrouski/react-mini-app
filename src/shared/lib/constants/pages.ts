@@ -1,3 +1,3 @@
 export const PAGES = {
-  home: "/",
+  home: "/react-mini-app/",
 };
