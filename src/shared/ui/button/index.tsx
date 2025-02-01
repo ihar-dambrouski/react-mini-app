@@ -1,6 +1,6 @@
 import { FC } from "react";
 import { StyledButton } from "./styled";
-import Loader from "./assets/spinner.svg";
+import Loader from "../../../assets/spinner.svg";
 
 type ButtonProps = {
   onClick: () => void;
