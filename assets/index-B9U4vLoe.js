@@ -99,4 +99,4 @@ Please change the parent <Route path="${T}"> to <Route path="${T==="/"?"*":`${T}
   @media (max-width: 480px) {
     padding: 0 10px;
   }
-`,ME=()=>Be.jsx(DE,{children:Be.jsx(jE,{})}),FE={home:"/"},bE=()=>Be.jsx(mE,{children:Be.jsx(HS,{children:Be.jsx(Xy,{path:FE.home,element:Be.jsx(ME,{})})})});function UE(){return Be.jsx(Xk,{theme:eS,children:Be.jsx(bE,{})})}Ca()&&(G_(),F0.mount());l1.createRoot(document.getElementById("root")).render(Be.jsx(N.StrictMode,{children:Be.jsx(UE,{})}));
+`,ME=()=>Be.jsx(DE,{children:Be.jsx(jE,{})}),FE={home:"/react-mini-app/"},bE=()=>Be.jsx(mE,{children:Be.jsx(HS,{children:Be.jsx(Xy,{path:FE.home,element:Be.jsx(ME,{})})})});function UE(){return Be.jsx(Xk,{theme:eS,children:Be.jsx(bE,{})})}Ca()&&(G_(),F0.mount());l1.createRoot(document.getElementById("root")).render(Be.jsx(N.StrictMode,{children:Be.jsx(UE,{})}));
